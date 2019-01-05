@@ -60,7 +60,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = "${env.AWS_ID_USR}"
         AWS_SECRET_ACCESS_KEY = "${env.AWS_ID_PSW}"
         AWS_DEFAULT_OUTPUT = 'json'
-        S3_BUCKET_NAME = "s3://s3-static-site.yogiman.cn"
+        S3_BUCKET_NAME = "s3://jenkins-workshop.yogiman.cn"
       }
       steps {
         script {
